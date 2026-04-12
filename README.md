@@ -19,11 +19,11 @@ This README explains the project purpose, how to run it locally, the expected re
 
 ## Getting started
 
-Prerequisites
+### Prerequisites
 - Node.js (14+ recommended) and npm or pnpm/yarn
 - A terminal and web browser
 
-Quick start (typical commands)
+### Quick start (typical commands)
 1. Install dependencies:
    - npm: `npm install`
    - yarn: `yarn`
@@ -32,13 +32,13 @@ Quick start (typical commands)
    - yarn: `yarn dev`
 3. Open the local dev URL shown in the terminal (commonly http://localhost:5173 with Vite).
 
-Build and preview
+### Build and preview
 - Build for production:
-  - npm: `npm run build`
-  - yarn: `yarn build`
+   - npm: `npm run build`
+   - yarn: `yarn build`
 - Preview the production build locally:
-  - npm: `npm run preview`
-  - yarn: `yarn preview`
+   - npm: `npm run preview`
+   - yarn: `yarn preview`
 
 If your package.json uses different script names, replace the commands above with whatever scripts are defined there.
 
@@ -46,8 +46,8 @@ If your package.json uses different script names, replace the commands above wit
 - index.html — root HTML file; loads /src/main.jsx and /src/index.css
 - package.json — project metadata, dependencies and scripts
 - src/
-  - main.jsx — React entrypoint (mounts the app to #root)
-  - index.css — global styles
+   - main.jsx — React entrypoint (mounts the app to #root)
+   - index.css — global styles
 
 (There may be more files inside src/; open that directory to see components, assets, or additional styles.)
 
@@ -59,7 +59,7 @@ If your package.json uses different script names, replace the commands above wit
 
 ## Testing
 - Add a test framework (Vitest, Jest + React Testing Library) and include scripts in package.json:
-  - Example: `npm run test`
+   - Example: `npm run test`
 
 ## Contributing
 - Fork the repo and create feature branches.
